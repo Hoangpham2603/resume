@@ -1,9 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import './base/reset';
+
 @import './helper/variable';
+@import './base/reset';
 @import './components/button';
 @import './components//reuseableClass';
 @import './helper//responsive';
 @import './Nav/header';
+@import './layout'

@@ -1,15 +1,11 @@
-button{
-    cursor: pointer;
-    border:none;
-    outline: none;
-}
+
 
 .button {
     display: inline-block;
     background-color: $title-color;
     color: $container-color;
-    padding: 1.25rem 2rem;
-    border-radius: 1rem;
+    padding: 2.4rem 3.2rem;
+    border-radius: 1.6rem;
     font-weight: $font-medium;
 }
 
