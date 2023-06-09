@@ -4,15 +4,24 @@
     display: inline-block;
     background-color: $title-color;
     color: $container-color;
-    padding: 2.4rem 3.2rem;
+    padding: 1.25rem 2rem;
     border-radius: 1.6rem;
     font-weight: $font-medium;
+    transition: all .3s;
+
+    &:hover {
+        background-color: $title-color-dark;
+    }
 }
 
-.button:hover {
-    background-color: $title-color-dark;
-}
+
 
 .button__icon {
     margin-left: $mb-0-5;
 }
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+  }
+

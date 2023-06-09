@@ -1,16 +1,6 @@
 
 /* Responsive typography */
-// @media screen and (max-width: 992px) {
-//   :root {
-//     --big-font-size: 2.75rem;
-//     --h1-font-size: 1.5rem;
-//     --h2-font-size: 1.25rem;
-//     --h3-font-size: 1rem;
-//     --normal-font-size: 0.938rem;
-//     --small-font-size: 0.813rem;
-//     --smaller-font-size: 0.75rem;
-//   }
-// }
+
 
 * {
   padding: 0;
@@ -18,14 +8,29 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  scroll-behavior: smooth;
+  background-color: hsl(var(--hue), var(--sat), 98%);
+}
+
 html{
   scroll-behavior: smooth;
+}
+
+button, input, textarea {
+  font-family: "Poppins", sans-serif;
 }
 
 body, button, input, textarea {
   font-family: $body-font;
   font-size: $normal-font-size;
 }
+
+
 
 body {
   background-color: $body-color;
@@ -57,3 +62,5 @@ img{
   max-width: 100%;
   height: auto;
 }
+
+
