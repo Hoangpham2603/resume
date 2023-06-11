@@ -6,7 +6,7 @@
 /*========== Margenes Bottom ==========*/
 /*========== z index ==========*/
 /* Responsive typography */
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -421,5 +421,7 @@ img {
   .home__hand {
     width: 22px;
     height: 22px;
-  }
-}/*# sourceMappingURL=main.css.map */
+  } 
+} */
+
+/*# sourceMappingURL=main.css.map */

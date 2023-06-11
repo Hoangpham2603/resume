@@ -17,7 +17,8 @@ function App() {
       <Route path="" element={<HomeTemplates/>}>
         {/* Home components */}
         <Route index element={<Home/>}></Route>
-        <Route index element={<About/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
+        <Route path="*" element={<Navigate to ="" />}/>
       </Route>
     </Routes>
    </BrowserRouter>

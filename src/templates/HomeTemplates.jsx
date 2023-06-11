@@ -27,7 +27,7 @@ const HomeTemplates = () => {
               </li>
 
               <li className="nav__item">
-                <NavLink to="" className={"nav__link "}>
+                <NavLink to="/about" className={"nav__link "}>
                   <i className="uil uil-user nav__icon  "></i> <span>About</span>
                 </NavLink>
               </li>
