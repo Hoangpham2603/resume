@@ -3,6 +3,8 @@ import Social from "./Social";
 import Data from "./Data";
 import ScrollDown from "./ScrollDown";
 import About from "../about/About";
+import Skill from "../skill/Skill";
+import Contact from "../contact/Contact";
 
 const Home = () => {
   return (
@@ -26,6 +28,10 @@ const Home = () => {
       <section>
         <About/>
       </section>
+
+      <Skill />
+
+      <Contact />
     </main>
   );
 };

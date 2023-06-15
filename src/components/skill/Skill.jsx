@@ -1,5 +1,7 @@
 import React from 'react'
-import AboutImg from "../../assets/img/about.jpg" 
+import AboutImg from "../../assets/img/about.JPEG" 
+import Frontend from './Frontend'
+import OtherSkill from './OtherSkill'
 
 const Skill = () => {
   return (
@@ -7,13 +9,11 @@ const Skill = () => {
       <h2 className="section__title">Skills</h2>
       <span className="section__subtitle">My technical level</span>
 
-      <div className="skills__container container grid">
-        <img src={AboutImg} alt="" className='about__img'/>
+     <div className="skills__container container grid">
+      <Frontend />
 
-        <div className="about__data">
-          <Info />
-        </div>
-      </div>
+      <OtherSkill />
+     </div>
     </div>
   )
 }

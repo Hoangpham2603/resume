@@ -63,7 +63,7 @@ const Data = () => {
         fuck rn... Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet possimus rem unde ab recusandae iure odio animi pariatur, vero est. Ipsa itaque amet unde nam temporibus accusamus cumque pariatur maxime.
       </p>
 
-      <a to="/contact" className="button button--flex ">
+      <NavLink to="/contact" className="button button--flex ">
         Say Hello
         <svg
           className="button__icon"
@@ -82,7 +82,7 @@ const Data = () => {
             fill="#fff"
           ></path>
         </svg>
-      </a>
+      </NavLink>
     </>
   );
 };
