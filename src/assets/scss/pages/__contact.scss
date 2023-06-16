@@ -3,6 +3,7 @@
     justify-content: center;
     column-gap: 9.5rem;
     padding-bottom: 4.8rem;
+    margin-top: 8rem;
 }
 
 .contact__title {
@@ -20,7 +21,7 @@
 
 .contact__card {
     background-color: $container-color;
-    border: 1px solid rgba (0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.1);
     padding: 1rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -39,6 +40,7 @@
 
 .contact__card-title {
     font-weight: $font-medium;
+   
 }
 
 .contact__card-data{
@@ -54,6 +56,8 @@
     justify-content: center;
     column-gap: 0.5rem;
 }
+
+
 
 .contact__button-icon {
     font-size: 1.6rem;
@@ -87,6 +91,7 @@
     border-radius: 1.2rem;
     padding: 2.4rem;
     z-index: 1;
+    margin-bottom: 1rem;
 }
 
 .contact__form-tag {

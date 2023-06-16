@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Info from "./Info";
 import CV from "../../assets/img/CV.pdf";
 import AboutImg from "../../assets/img/about.JPEG";
 
 import { NavLink } from "react-router-dom";
 const About = () => {
+  const [request, setRequest] = useState(false);
+
+  const handleClick = () => {
+    setRequest(!request);
+
+  };
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About me</h2>
@@ -17,10 +23,19 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Front-end developer, I create web page with UI / UX user interface. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia asperiores repellendus fugit recusandae laudantium facere repellat corrupti commodi dicta nulla.
+            I am excited about the opportunity to collaborate on meaningful
+            projects, where I can apply my skills and contribute to the success
+            of innovative web solutions. If you're looking for a front-end
+            developer who is passionate, reliable, and committed to delivering
+            exceptional user experiences, I'd love to connect.
           </p>
 
-          <NavLink className={"button button--flex"} download={""} to={CV}>
+          <a
+            className="button button--flex"
+            onClick={handleClick}
+            download={"HoangPhamCV"}
+            href={CV}
+          >
             DownLoad CV
             <svg
               className="button__icon"
@@ -47,7 +62,7 @@ const About = () => {
                 fill="#fff"
               ></path>
             </svg>
-          </NavLink>
+          </a>
         </div>
       </div>
     </section>

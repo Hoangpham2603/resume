@@ -59,8 +59,8 @@ const Data = () => {
 
       <h3 className="home__subtitle">Front-end Developer</h3>
       <p className="home__description">
-        personal profile. im a creative designer based in HCM, and im broke as
-        fuck rn... Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet possimus rem unde ab recusandae iure odio animi pariatur, vero est. Ipsa itaque amet unde nam temporibus accusamus cumque pariatur maxime.
+      Highly motivated, self-starting developer seeking to launch a career building web applications and
+services. Familiar with development and deployment process for many web-based technologies.
       </p>
 
       <NavLink to="/contact" className="button button--flex ">

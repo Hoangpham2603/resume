@@ -33,13 +33,13 @@ const HomeTemplates = () => {
               </li>
 
               <li className="nav__item">
-                <NavLink to="" className={"nav__link "}>
+                <NavLink to="/skills" className={"nav__link "}>
                   <i className="uil uil-file-alt nav__icon"></i> Skill
                 </NavLink>
               </li>
 
               <li className="nav__item">
-                <NavLink  to="" className={"nav__link"}>
+                <NavLink  to="/contact" className={"nav__link"}>
                   <i  className="uil uil-message nav__icon"></i> Contact
                 </NavLink>
               </li>

@@ -34,7 +34,7 @@ const Contact = () => {
 
               <span className="contact__card-data">kunpham2603@gmail.com</span>
 
-              <a href="" className="contact__button">
+              <a href="mailto:kunpham2603@gmail.com" className="contact__button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -108,6 +108,7 @@ const Contact = () => {
               ></textarea>
             </div>
 
+            
             <button className="button button--flex ">
               Send Message
               <svg

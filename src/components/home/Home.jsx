@@ -5,6 +5,8 @@ import ScrollDown from "./ScrollDown";
 import About from "../about/About";
 import Skill from "../skill/Skill";
 import Contact from "../contact/Contact";
+import Footer from "../footer/Footer";
+import Service from "../service/Service";
 
 const Home = () => {
   return (
@@ -31,7 +33,11 @@ const Home = () => {
 
       <Skill />
 
+      <Service />
+
       <Contact />
+
+      <Footer/>
     </main>
   );
 };

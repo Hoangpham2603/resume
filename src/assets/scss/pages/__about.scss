@@ -1,7 +1,8 @@
 .about__container {
     grid-template-columns: repeat(2 , 1fr);
     align-items: center;
-    column-gap: 9.6rem;
+    column-gap: 20rem;
+    margin-top: 8rem;
   }
 
   .about__img {
@@ -43,6 +44,8 @@
   .about__description {
     padding: 0 4rem 0 0;
     margin-bottom: $mb-2-5;
+    letter-spacing: .8px;
+    line-height: 2rem;
   }
 
   @media screen and (max-width: 992px) {

@@ -1,5 +1,6 @@
 
   .home {
+    
     .home__container {
       row-gap: 15rem;
 
@@ -46,6 +47,9 @@
       .home__description {
         max-width: 400px;
         margin-bottom: $mb-3;
+        line-height: 2rem;
+        letter-spacing: 1px;
+      
       }
 
       
@@ -61,11 +65,13 @@
   }
 
   .home__img {
-    background: url(../../img/profile-pic.JPG);
+    background: url(../../img/profile-picture.jpeg);
+    transform: translateX(5rem);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     box-shadow: inset 0 0 0 9px rgb(255, 255, 850);
+    filter: grayscale(.4);
     order: 1;
     width: 300px;
     height: 300px;
@@ -74,7 +80,7 @@
   }
 
   .home__title {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     margin-bottom: $mb-1-5;
 
     .home__hand {
@@ -174,6 +180,7 @@
         grid-template-columns: 1fr 2fr;
         padding-top: 5.6rem;
         align-self: center;
+        row-gap: 2.5rem;
     }
     .home__img {
         order: initial;
@@ -199,7 +206,10 @@
 
 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 395px) {
+  .home__title {
+    font-size: 4rem;
+  }
     .home__img {
         width: 180px;
         height: 180px;
@@ -208,6 +218,7 @@
     .home__hand {
         width: 22px;
         height: 22px;
+        display:none;
     }
 
     
