@@ -8,14 +8,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_wli051r",
-        "template_bu7rq56",
-        form.current,
-        "gwv04vgjkrfNu2HOH"
-      )
-     e.target.reset();
+    emailjs.sendForm(
+      "service_wli051r",
+      "template_bu7rq56",
+      form.current,
+      "gwv04vgjkrfNu2HOH"
+    );
+    e.target.reset();
   };
   return (
     <section className="contact section" id="contact">
@@ -32,9 +31,12 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Email</h3>
 
-              <span className="contact__card-data">kunpham2603@gmail.com</span>
+              {/* <span className="contact__card-data">kunpham2603@gmail.com</span> */}
 
-              <a href="mailto:kunpham2603@gmail.com" className="contact__button">
+              <a
+                href="mailto:kunpham2603@gmail.com"
+                className="contact__button"
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -108,7 +110,6 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            
             <button className="button button--flex ">
               Send Message
               <svg

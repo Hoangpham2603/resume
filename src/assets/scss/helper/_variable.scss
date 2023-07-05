@@ -1,51 +1,47 @@
 /*=============== VARIABLES CSS ===============*/
-    $header-height: 5rem;
-  
-    /*========== Colors ==========*/
-    /*Color mode HSL(hue, saturation, lightness)*/
-    $hue: 0;
-    $sat: 0%;
-    $title-color: rgba(0,0,0,.7);
-    $title-color-dark: hsl(0, 0%, 0%);
-    $text-color: hsl(0, 0%, 46%);
-    $body-color: hsl(0, 0%, 98%);
-    $container-color: rgba(255, 255, 255, .8);
-  
-    /*========== Font and typography ==========*/
-    $body-font: "Poppins", sans-serif;
-  
-    //1rem = 10px;
-    $big-font-size: 5.5rem;
-    $h1-font-size: 3.6rem;
-    $h2-font-size: 2.4rem;
-    $h3-font-size: 2rem;
-    $normal-font-size: 1.6rem;
-    $small-font-size: 1.4rem;
-    $smaller-font-size: 1.3rem;
-    $tiny-font-size: 1rem;
-  
-    /*========== Font weight ==========*/
-    $font-normal: 400;
-    $font-medium: 500;
-    $font-semi-bold: 600;
-  
-    /*========== Margenes Bottom ==========*/
-   
-    $mb-0-25: 0.4rem;
-    $mb-0-5: 0.8rem;
-    $mb-0-75: 1.2rem;
-    $mb-1: 1.6rem;
-    $mb-1-5: 2.4rem;
-    $mb-2: 3.2rem;
-    $mb-2-25: 3.5rem;
-    $mb-2-5: 4rem;
-    $mb-3: 4.8rem;
-  
-    /*========== z index ==========*/
-    $z-tooltip: 10;
-    $z-fixed: 100;
-    $z-modal: 1000;
+$header-height: 5rem;
 
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+$hue: 0;
+$sat: 0%;
+$title-color: rgba(0, 0, 0, 0.7);
+$title-color-dark: hsl(0, 0%, 0%);
+$text-color: hsl(0, 0%, 46%);
+$body-color: hsl(0, 0%, 97.5%);
+$container-color: rgba(255, 255, 255, 0.8);
 
-  
-   
+/*========== Font and typography ==========*/
+$body-font: "Poppins", sans-serif;
+
+//1rem = 10px;
+$big-font-size: 5.5rem;
+$h1-font-size: 3.6rem;
+$h2-font-size: 2.4rem;
+$h3-font-size: 2rem;
+$normal-font-size: 1.6rem;
+$small-font-size: 1.4rem;
+$smaller-font-size: 1.3rem;
+$tiny-font-size: 1rem;
+
+/*========== Font weight ==========*/
+$font-normal: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+
+/*========== Margenes Bottom ==========*/
+
+$mb-0-25: 0.4rem;
+$mb-0-5: 0.8rem;
+$mb-0-75: 1.2rem;
+$mb-1: 1.6rem;
+$mb-1-5: 2.4rem;
+$mb-2: 3.2rem;
+$mb-2-25: 3.5rem;
+$mb-2-5: 4rem;
+$mb-3: 4.8rem;
+
+/*========== z index ==========*/
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
