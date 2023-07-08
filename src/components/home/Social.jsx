@@ -1,22 +1,34 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Social = () => {
   return (
     <div className="home__social">
-        <NavLink to="https://www.instagram.com/" className="home__social-icon" target="_blank">
-            <i className="uil uil-instagram"></i>
-        </NavLink>
+      <NavLink
+        to="https://github.com/Hoangpham2603"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i className="uil uil-github-alt"></i>
+      </NavLink>
 
-        <NavLink to="https://github.com/Hoangpham2603" className="home__social-icon" target="_blank">
-            <i className="uil uil-github-alt"></i>
-        </NavLink>
+      <NavLink
+        to="https://github.com/Hoangpham2603"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i className="uil uil-github-alt"></i>
+      </NavLink>
 
-        <NavLink to="https://github.com/Hoangpham2603" className="home__social-icon" target="_blank">
-            <i className="uil uil-github-alt"></i>
-        </NavLink>
+      <NavLink
+        to="https://github.com/Hoangpham2603"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i className="uil uil-github-alt"></i>
+      </NavLink>
     </div>
-  )
-}
+  );
+};
 
-export default Social
+export default Social;

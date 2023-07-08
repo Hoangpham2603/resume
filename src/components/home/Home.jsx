@@ -7,6 +7,7 @@ import Skill from "../skill/Skill";
 import Contact from "../contact/Contact";
 import Footer from "../footer/Footer";
 import Service from "../service/Service";
+import Work from "../Work/Work";
 
 const Home = () => {
   return (
@@ -28,16 +29,18 @@ const Home = () => {
       </section>
 
       <section>
-        <About/>
+        <About />
       </section>
 
       <Skill />
 
       <Service />
 
+      <Work />
+
       <Contact />
 
-      <Footer/>
+      <Footer />
     </main>
   );
 };
