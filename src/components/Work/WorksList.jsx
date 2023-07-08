@@ -11,14 +11,14 @@ const WorksList = () => {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter(
-        (project) => project.category === item.name
+        (project) => project.category.toLocaleLowerCase() === item.name
       );
       setProjects(newProjects);
     }
   }, [item]);
 
   const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent });
+    setItem({ name: e.target.textContent.toLocaleLowerCase() });
     setActive(index);
   };
 
