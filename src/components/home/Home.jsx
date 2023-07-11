@@ -15,35 +15,7 @@ const Home = () => {
       <section className="home section" id="home">
         <div className="home__container container grid">
           <div className="home__content grid">
-            {/* <Social className="home__social" /> */}
-            <div className="home__social">
-              <a
-                to="https://github.com/Hoangpham2603"
-                className="home__social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="uil uil-github-alt"></i> asjdhjaksdhg
-              </a>
-
-              <a
-                to="https://github.com/Hoangpham2603"
-                className="home__social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="uil uil-github-alt"></i>
-              </a>
-
-              <a
-                to="https://github.com/Hoangpham2603"
-                className="home__social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="uil uil-github-alt"></i>
-              </a>
-            </div>
+            <Social />
 
             <div className="home__img"></div>
 
