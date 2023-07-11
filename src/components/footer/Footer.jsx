@@ -29,6 +29,7 @@ const Footer = () => {
             href="https://github.com/Hoangpham2603"
             className="footer__social-link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="bx bxl-instagram"></i>asdnsadnbsand
           </a>
@@ -37,6 +38,7 @@ const Footer = () => {
             href="https://github.com/Hoangpham2603"
             className="footer__social-link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="bx bxl-github"></i>
           </a>
@@ -45,6 +47,7 @@ const Footer = () => {
             href="https://github.com/Hoangpham2603"
             className="footer__social-link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="bx bxl-github"></i>
           </a>
