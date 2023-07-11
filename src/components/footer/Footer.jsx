@@ -25,29 +25,29 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social">
-          <NavLink
-            to="https://github.com/Hoangpham2603"
+          <a
+            href="https://github.com/Hoangpham2603"
             className="footer__social-link"
             target="_blank"
           >
             <i className="bx bxl-instagram"></i>asdnsadnbsand
-          </NavLink>
+          </a>
 
-          <NavLink
-            to="https://github.com/Hoangpham2603"
+          <a
+            href="https://github.com/Hoangpham2603"
             className="footer__social-link"
             target="_blank"
           >
             <i className="bx bxl-github"></i>
-          </NavLink>
+          </a>
 
-          <NavLink
-            to="https://github.com/Hoangpham2603"
+          <a
+            href="https://github.com/Hoangpham2603"
             className="footer__social-link"
             target="_blank"
           >
             <i className="bx bxl-github"></i>
-          </NavLink>
+          </a>
         </div>
 
         <div className="footer__copy">&#169; Copy right.</div>
