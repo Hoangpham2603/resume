@@ -31,7 +31,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="bx bxl-instagram"></i>asdnsadnbsand
+            <i className="bx bxl-instagram"></i>
           </a>
 
           <a
