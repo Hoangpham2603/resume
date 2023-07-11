@@ -27,7 +27,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <NavLink
-            to="https://www.instagram.com/"
+            to="https://github.com/Hoangpham2603"
             className="footer__social-link"
             target="_blank"
           >
@@ -51,9 +51,7 @@ const Footer = () => {
           </NavLink>
         </div>
 
-        <div className="footer__copy">
-            &#169; Copy right.
-        </div>
+        <div className="footer__copy">&#169; Copy right.</div>
       </div>
     </footer>
   );
