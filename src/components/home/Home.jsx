@@ -1,5 +1,5 @@
 import React from "react";
-// import Social from "./Social";
+import Social from "./Social";
 import Data from "./Data";
 import ScrollDown from "./ScrollDown";
 import About from "../about/About";
