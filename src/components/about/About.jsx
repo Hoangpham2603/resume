@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import Info from "./Info";
 import CV from "../../assets/img/CV.pdf";
-import AboutImg from "../../assets/img/about.JPEG";
-import aboutImg2 from "../../assets/img/about-img2.JPG";
+import aboutImg from "../../assets/img/aboutImg.jpeg";
 
-import { NavLink } from "react-router-dom";
 const About = () => {
   const [request, setRequest] = useState(false);
 
@@ -17,7 +15,7 @@ const About = () => {
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
-        <img src={aboutImg2} alt="" className="about__img" />
+        <img src={aboutImg} alt="" className="about__img" />
 
         <div className="about__data">
           <Info />
