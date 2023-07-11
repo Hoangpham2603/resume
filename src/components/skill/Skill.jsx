@@ -1,7 +1,6 @@
 import React from "react";
-import AboutImg from "../../assets/img/about.JPEG";
 import Frontend from "./Frontend";
-import OtherSkill from "./OtherSkill";
+// import OtherSkill from "./OtherSkill";
 
 const Skill = () => {
   return (

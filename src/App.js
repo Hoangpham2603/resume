@@ -1,10 +1,4 @@
-import {
-  BrowserRouter,
-  Navigate,
-  Route,
-  Routes,
-  unstable_HistoryRouter as HistoryBrowser,
-} from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./components/home/Home";
 import HomeTemplates from "./templates/HomeTemplates";
 import About from "./components/about/About";

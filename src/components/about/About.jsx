@@ -28,7 +28,7 @@ const About = () => {
             exceptional user experiences, I'd love to connect.
           </p>
 
-          <a className="button button--flex my__cv" href={CV}>
+          <a className="button button--flex my__cv" href={CV} target="_new">
             My CV
             <svg
               className="button__icon"
@@ -57,7 +57,7 @@ const About = () => {
             </svg>
           </a>
 
-          <a className="button button--flex" onClick={handleClick}>
+          <button className="button button--flex" onClick={handleClick}>
             Download CV
             <svg
               className="button__icon"
@@ -84,7 +84,7 @@ const About = () => {
                 fill="#fff"
               ></path>
             </svg>
-          </a>
+          </button>
 
           <div className={request ? "cv__modal cv__active" : "cv__modal"}>
             <div className="cv__modal-content">

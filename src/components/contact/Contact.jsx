@@ -49,7 +49,11 @@ const Contact = () => {
 
               <span className="contact__card-data">(669)-255-1118</span>
 
-              <a href="" className="contact__button">
+              <a
+                href="https://api.whatsapp.com/send?phone=6692551118&text=Hello, more Information"
+                className="contact__button"
+                target="_new"
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -62,7 +66,11 @@ const Contact = () => {
 
               <span className="contact__card-data">facebook.com</span>
 
-              <a href="" className="contact__button">
+              <a
+                href="https://m.me/kunpham2603"
+                target="_new"
+                className="contact__button"
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
