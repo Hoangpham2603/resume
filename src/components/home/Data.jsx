@@ -5,7 +5,7 @@ const Data = () => {
   return (
     <>
       <h1 className="home__title">
-        Hoang Pham
+        Hoang Pham 123123
         <svg
           width="36"
           height="36"
@@ -59,8 +59,9 @@ const Data = () => {
 
       <h3 className="home__subtitle">Front-end Developer</h3>
       <p className="home__description">
-      Highly motivated, self-starting developer seeking to launch a career building web applications and
-services. Familiar with development and deployment process for many web-based technologies.
+        Highly motivated, self-starting developer seeking to launch a career
+        building web applications and services. Familiar with development and
+        deployment process for many web-based technologies.
       </p>
 
       <NavLink to="/contact" className="button button--flex ">
