@@ -10,7 +10,7 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="uil uil-github-alt"></i> asjdhjaksdh
+        <i className="uil uil-github-alt"></i> asjdhjaksdhg
       </a>
 
       <a

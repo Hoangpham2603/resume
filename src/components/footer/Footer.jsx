@@ -31,7 +31,7 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
           >
-            <i className="bx bxl-instagram"></i>
+            <i className="bx bxl-instagram"></i>asdnsadnbsand
           </NavLink>
 
           <NavLink
