@@ -8,6 +8,7 @@ const Social = () => {
         to="https://github.com/Hoangpham2603"
         className="home__social-icon"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <i className="uil uil-github-alt"></i>
       </NavLink>
@@ -16,6 +17,7 @@ const Social = () => {
         to="https://github.com/Hoangpham2603"
         className="home__social-icon"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <i className="uil uil-github-alt"></i>
       </NavLink>
@@ -24,6 +26,7 @@ const Social = () => {
         to="https://github.com/Hoangpham2603"
         className="home__social-icon"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <i className="uil uil-github-alt"></i>
       </NavLink>
