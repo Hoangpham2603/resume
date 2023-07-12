@@ -10,7 +10,7 @@ const WorkItems = ({ item }) => {
       />
       <h3 className="work__title">{item.title}</h3>
       <a
-        href="https://hoangpham2603.github.io/Natours-landingpage/"
+        href={item.link}
         className="work__button"
         target="_blank"
         rel="noopener noreferrer"

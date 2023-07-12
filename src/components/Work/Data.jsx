@@ -10,30 +10,35 @@ export const projectsData = [
     image: Work1,
     title: "landing Page",
     category: "web",
+    link: "https://hoangpham2603.github.io/Natours-landingpage/",
   },
   {
     id: 2,
     image: Work2,
     title: "Landing Page",
     category: "app",
+    link: "https://google.com",
   },
   {
     id: 3,
     image: Work3,
     title: "brand design",
     category: "app",
+    link: "https://google.com",
   },
   {
     id: 4,
     image: Work4,
     title: "brand design",
     category: "design",
+    link: "https://google.com",
   },
   {
     id: 5,
     image: Work5,
     title: "brand design",
     category: "design",
+    link: "https://hoangpham2603.github.io/Natours-landingpage/",
   },
 ];
 
