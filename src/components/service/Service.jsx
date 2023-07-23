@@ -5,7 +5,7 @@ const Service = () => {
 
   const toggleTab = (index) => {
     setToggleState(index);
-  }
+  };
 
   return (
     <section className="service section" id="services">
@@ -21,14 +21,23 @@ const Service = () => {
             </h3>
           </div>
 
-          <span className="services__button" onClick = {() => toggleTab(1)}>
+          <span className="services__button" onClick={() => toggleTab(1)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
-          <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal" }>
+          <div
+            className={
+              toggleState === 1
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
             <div className="services__modal-content">
-              <i className="uil uil-times services__modal-close" onClick = { () => toggleTab(0)}></i>
+              <i
+                className="uil uil-times services__modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
 
               <h3 className="services__modal-title">Product Designer</h3>
               <p className="services__modal-description">
@@ -78,21 +87,30 @@ const Service = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              UI/UX <br /> Designer
+              {/* UI/UX <br /> Designer */} WOrk on this
             </h3>
           </div>
 
-          <span className="services__button" onClick = { () => toggleTab(2)}>
+          <span className="services__button" onClick={() => toggleTab(2)}>
             {" "}
             View More{" "}
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
-          <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal" }>
+          <div
+            className={
+              toggleState === 2
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
             <div className="services__modal-content">
-              <i className="uil uil-times services__modal-close" onClick = { () => toggleTab(0)}></i>
-
-              <h3 className="services__modal-title">UI/UX Designer</h3>
+              <i
+                className="uil uil-times services__modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
+              {/* UI/UX Designer */}
+              <h3 className="services__modal-title">work on this</h3>
               <p className="services__modal-description">
                 Front-End Development for Fresher: I offer expertise in HTML,
                 CSS, and JavaScript to create visually appealing and responsive
@@ -142,21 +160,31 @@ const Service = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              {/* Visual <br /> Designer */} work on this
             </h3>
           </div>
 
-          <span className="services__button" onClick = { () => toggleTab(3)}>
+          <span className="services__button" onClick={() => toggleTab(3)}>
             {" "}
             View More{" "}
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
-          <div  className={toggleState === 3 ? "services__modal active-modal" : "services__modal" }>
+          <div
+            className={
+              toggleState === 3
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
             <div className="services__modal-content">
-              <i className="uil uil-times services__modal-close" onClick = { () => toggleTab(0)}></i>
+              <i
+                className="uil uil-times services__modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
+              {/* Visual Designer */}
+              <h3 className="services__modal-title">Work on this</h3>
               <p className="services__modal-description">
                 Front-End Development for Fresher: I offer expertise in HTML,
                 CSS, and JavaScript to create visually appealing and responsive
