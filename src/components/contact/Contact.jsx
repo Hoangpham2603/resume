@@ -47,7 +47,7 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Whatsapp</h3>
 
-              <span className="contact__card-data">(669)-255-1118</span>
+              {/* <span className="contact__card-data">(669)-255-1118</span> */}
 
               <a
                 href="https://api.whatsapp.com/send?phone=6692551118&text=Hello, more Information"
