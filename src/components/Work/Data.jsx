@@ -1,5 +1,5 @@
 import Work1 from "../../assets/img/Work1.png";
-import Work2 from "../../assets/img/work2.jpg";
+import Work2 from "../../assets/img/Work2.png";
 import Work3 from "../../assets/img/work3.jpg";
 import Work4 from "../../assets/img/work4.jpg";
 import Work5 from "../../assets/img/work5.jpg";
@@ -15,9 +15,9 @@ export const projectsData = [
   {
     id: 2,
     image: Work2,
-    title: "Landing Page",
+    title: "Shoppee Clone",
     category: "app",
-    link: "https://google.com",
+    link: "https://hp-shoppee-clone.netlify.app",
   },
   {
     id: 3,
